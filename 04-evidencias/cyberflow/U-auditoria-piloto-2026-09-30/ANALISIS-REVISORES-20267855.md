@@ -53,16 +53,16 @@ La numeración R2.1–R2.5 corresponde al orden de los cinco párrafos de solici
 
 ## 4. Qué significa el avance de R1.3
 
-La [auditoría inicial](README.md), el [cierre acotado](cierre-r1-3/README.md) y la [ampliación offline](cierre-r1-3/offline-vms/README.md) ya aportan una respuesta documental importante, pero **R1.3 todavía no está cerrado**.
+La [auditoría inicial](README.md) y la búsqueda ampliada, conservada en una copia privada, ya aportan una respuesta documental importante, pero **R1.3 todavía no está cerrado**.
 
 | Parte de R1.3 | Estado defendible |
 |---|---|
 | Identificar las 84 positivas y las 74 referencias exactas | Hecho: claves, archivos fuente y hashes verificados. |
-| Documentar evidencia y límites por ventana | Hecho: matriz de 158 filas y fuentes con cobertura/límites. |
+| Documentar evidencia y límites por ventana | Hecho: matriz de 158 filas y fuentes con cobertura/límites (copia privada). |
 | Tratar historias de 10/30/60 s y fronteras | Se documentaron cruces nominales y mezclas. Falta decidir el tratamiento de evaluación; no se confundieron con atribuciones confirmadas. |
 | Atribución independiente concluyente de cada positiva | No conseguida. La coincidencia temporal con bitácora no calibra relojes ni demuestra el par de tráfico por ventana. |
 | Normalidad independiente de las 74 referencias | No conseguida. Veinte tienen paquetes/10 s; de las 54 con cero, ocho conservan actividad en contadores de historia examinados. |
-| Agotar fuentes históricas pendientes | Parcial: catálogos/logs offline inspeccionados; documentos de índices Wazuh, tablas históricas Zabbix y respaldos internos de VM-BACKUP siguen pendientes según los límites registrados. |
+| Agotar fuentes históricas pendientes | Parcial: quedan fuentes históricas pendientes según los límites registrados en la copia privada. |
 | Recomputar Tabla 8 excluyendo o resolviendo las 74 | No ejecutado, por la instrucción vigente de no cambiar aún métricas ni manuscrito. |
 
 Por tanto, una futura carta debe distinguir **qué evidencia se obtuvo**, **qué no pudo verificarse** y **qué población se usa al recalcular**. No sería correcto afirmar “se verificaron las 84 etiquetas” ni “las 74 eran normales” con lo recuperado.

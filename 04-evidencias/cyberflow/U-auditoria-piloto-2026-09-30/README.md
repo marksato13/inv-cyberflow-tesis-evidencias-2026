@@ -13,16 +13,11 @@ las siete solicitudes del revisor 1, las cinco del revisor 2 y los requisitos ed
 Distingue aclaraciones, reanálisis y evidencia nueva, y precisa por qué el avance R1.3
 todavía no equivale a cerrar la observación. No modifica el Word original ni el manuscrito.
 
-### Actualización R1.3: búsqueda acotada y 158 ventanas
+### Actualización R1.3: búsqueda acotada
 
-**Ampliación offline:** la [inspección de las VMs apagadas](cierre-r1-3/offline-vms/README.md)
-permitió acceder a catálogos y logs de Wazuh, Zabbix y Suricata y publicar una matriz de
-evidencia actualizada. No resolvió las atribuciones del piloto; las tablas históricas de
-Zabbix y los documentos de índices Wazuh no se consultaron semánticamente.
+El material ampliado de esta búsqueda se retiró del repositorio público porque incluía inventarios de infraestructura ajena a CyberFlow; se conserva en una copia privada. Aquí queda el [resumen de episodios](cierre-r1-3/EPISODIOS-RESUMEN.csv).
 
-El [cierre de búsqueda R1.3](cierre-r1-3/README.md) amplía esta auditoría a las **84 positivas históricas y las 74 referencias cuestionadas**. Publica la matriz por ventana, el informe, la cobertura de 90 archivos de logs y el paquete completo de fuentes/scripts.
-
-Las 74 referencias abarcan el 27–29 sep: 20 tienen paquetes/10 s y 54 tienen cero; **8 de esas 54 conservan actividad en contadores de historia de 30/60 s**. Hay 7 ventanas positivas cuya historia nominal de 60 s intersecta dos episodios. La atribución individual sigue incierta. Tras la ampliación offline, los catálogos y logs accesibles de Wazuh/Zabbix sí están inspeccionados; permanecen pendientes la consulta semántica de índices Wazuh, las tablas históricas Zabbix y los respaldos dentro de VM-BACKUP. No se declara ausencia de evidencia en esas fuentes pendientes.
+Las 74 referencias abarcan el 27–29 sep: 20 tienen paquetes/10 s y 54 tienen cero; **8 de esas 54 conservan actividad en contadores de historia de 30/60 s**. Hay 7 ventanas positivas cuya historia nominal de 60 s intersecta dos episodios. La atribución individual sigue incierta. Quedan fuentes históricas sin consultar y no se declara ausencia de evidencia en ellas.
 
 Esta actualización no cambia etiquetas, métricas ni manuscrito y no recalcula Tabla 8. Cierra la búsqueda ejecutada hasta sus límites de acceso, no la validación independiente de las etiquetas.
 
