@@ -1,5 +1,11 @@
 # S — Aprendizaje supervisado activado en el Sensor1: linaje y primer lote real
 
+> **Actualización de trazabilidad (23-nov-2026 UTC):** la [nota U](U-auditoria-piloto-2026-09-30/README.md)
+> entrega el CSV original y la auditoría de las 84 ventanas del conjunto positivo de
+> la nota M. La identidad de los archivos y la reproducción de resultados no prueban
+> por sí solas la atribución de cada ventana a un ataque. Se mantienen las etiquetas
+> históricas; los desfases y las atribuciones E0/NTP/SSH siguen pendientes de confirmación.
+
 **Fecha:** 11 de octubre de 2026 · **Máquina:** `cyberflow-sensor` (10.10.60.11)
 
 **Código:**

@@ -5,6 +5,12 @@ y PCA por error de reconstrucción. Usa las mismas filas, las mismas 28 caracter
 El umbral sigue un criterio común (cuantil 1−α de la validación) con α = 0,03 y 0,05.
 Todo se calculó **offline** en el laptop. No se tocó el modelo desplegado, sus servicios ni su configuración.
 
+> **Trazabilidad del conjunto positivo (23-nov-2026 UTC):** véase la
+> [auditoría de las 84 ventanas del piloto](../../../../../04-evidencias/cyberflow/U-auditoria-piloto-2026-09-30/README.md).
+> Sus etiquetas son las históricas por actividad de estación/intervalo; la atribución
+> exhaustiva a episodios de ataque no está confirmada. La auditoría publica el CSV
+> original, bitácoras, cruces y hashes sin cambiar estas puntuaciones ni métricas.
+
 ## Archivos
 
 | Archivo | Contenido |

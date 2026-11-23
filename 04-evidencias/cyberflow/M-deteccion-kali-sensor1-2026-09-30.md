@@ -1,5 +1,17 @@
 # M · Detección de ataques reales (Kali) con el modelo recalibrado — sensor1
 
+> **Auditoría retrospectiva (23-nov-2026 UTC, [nota U](U-auditoria-piloto-2026-09-30/README.md)).**
+> Se recuperaron el CSV original de 84 ventanas y dos bitácoras completas, y se
+> contrastaron el extractor histórico candidato y las hipótesis de desfase temporal.
+> **Actividad de Kali no equivale por sí sola a ataque confirmado por ventana.**
+> Sin desplazar relojes, 47 cierres caen dentro de intervalos documentados, 4 solo
+> coinciden por historia retrospectiva hasta 60 s y 33 no tienen intervalo documentado;
+> estos conteos no son una reclasificación de etiquetas. Sensor2 aporta 80/84 parejas
+> activas bajo un desplazamiento exploratorio de +180 s, no una réplica exacta de las 84.
+> Los desfases, el escaneo manual E0 y las atribuciones NTP/SSH siguen siendo hipótesis.
+> La nota U entrega informe, fuentes, scripts y hashes. Las métricas siguientes se
+> conservan como resultados del etiquetado histórico, no como validación independiente.
+
 > **Errata (11-oct-2026, [nota S](S-aprendizaje-supervisado-sensor1-2026-10-11.md)).**
 > Las **54 detectadas** se reproducen exactas con el modelo desplegado, pero el
 > denominador no es 78. La ráfaga de la campaña (30-sep, 00:10–01:52 UTC) tiene **84**
