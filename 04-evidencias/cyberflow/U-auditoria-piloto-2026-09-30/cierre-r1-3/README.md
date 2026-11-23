@@ -2,6 +2,12 @@
 
 **Corte:** 23-nov-2026 UTC. Complementa la [nota U](../README.md).
 
+> **Ampliación posterior del mismo día:** se apagaron y se inspeccionaron offline las
+> VMs Wazuh, Zabbix y Suricata. Véanse el [informe y la matriz actualizados](offline-vms/README.md).
+> Se pudieron leer catálogos y logs que antes eran inaccesibles por SSH. No se recuperó
+> evidencia del piloto que resolviera las 158 atribuciones. La consulta semántica de
+> índices Wazuh y de tablas históricas Zabbix sigue pendiente. El corte original de abajo se conserva.
+
 ## Resultado y alcance
 
 Se examinaron exclusivamente los respaldos pendientes identificados y los registros históricos accesibles de SRV-DMZ, pfSense A/B y monitorización. **No se recuperó evidencia suficiente para certificar por ventana las 84 positivas históricas ni la normalidad de las 74 referencias.** Todas las atribuciones individuales quedan inciertas; no significa que no ocurrieran ataques.

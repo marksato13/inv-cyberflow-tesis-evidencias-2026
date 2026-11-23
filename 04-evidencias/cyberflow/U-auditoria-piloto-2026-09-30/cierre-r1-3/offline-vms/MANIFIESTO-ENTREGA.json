@@ -1,0 +1,13 @@
+{
+  "package_sha256": "c2f75faa492db49c7fa7d1a4bdd36e3c144a01a217c407d1bc03523ac8578e87",
+  "package_bytes": 86172,
+  "package_members": 34,
+  "readable_outputs_sha256": {
+    "INFORME-OFFLINE-R1.3.md": "da52c32874212c5cdd3449b04152f8dcfc10ad289207d09a73911e18eeee95c8",
+    "MATRIZ-158-OFFLINE.csv": "8e13e6d2774077887579b793b9a3f81b2a1dc3ced8541223673d456a6b0dad09",
+    "FUENTES-Y-LIMITES-OFFLINE.csv": "ca5e052003e5cca7212c59b391be01f8f9d9c954fdb6c1e9b336f327ebb686d6",
+    "INVENTARIO-OFFLINE.csv": "8aa55c35446f36529314e98da3193bf91c703c695355a8d1b10755c350f3e6be",
+    "VERIFICACION-OFFLINE.json": "0b70835af81a0183bf75f57cdb7adc5fc98e3476faf6d73a6deb0d7198aa75b0"
+  },
+  "source_previous_matrix_sha256": "df133ac499eed961fb4778acbccafba7cd0d5e13f7ca1f7b17a1d16526c4c8c1"
+}
