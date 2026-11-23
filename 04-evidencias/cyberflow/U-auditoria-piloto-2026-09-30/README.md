@@ -6,6 +6,13 @@ Complementa la [nota M](../M-deteccion-kali-sensor1-2026-09-30.md) y el [linaje 
 
 ## Entrega
 
+### Análisis integral de la revisión IJIES
+
+El [análisis del dictamen del Paper 20267855](ANALISIS-REVISORES-20267855.md) desglosa
+las siete solicitudes del revisor 1, las cinco del revisor 2 y los requisitos editoriales.
+Distingue aclaraciones, reanálisis y evidencia nueva, y precisa por qué el avance R1.3
+todavía no equivale a cerrar la observación. No modifica el Word original ni el manuscrito.
+
 ### Actualización R1.3: búsqueda acotada y 158 ventanas
 
 **Ampliación offline:** la [inspección de las VMs apagadas](cierre-r1-3/offline-vms/README.md)
