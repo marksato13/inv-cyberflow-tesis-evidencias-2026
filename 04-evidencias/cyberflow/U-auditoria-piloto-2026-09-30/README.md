@@ -24,7 +24,7 @@ Esta actualización no cambia etiquetas, métricas ni manuscrito y no recalcula 
 ### Entrega inicial: extractor y 84 ventanas
 
 - [Informe crítico completo](REVISION-CRITICA.md): fuentes, extractor candidato, hipótesis temporales y límites de atribución.
-- [Paquete de evidencia](paquete-evidencia.zip): 27 archivos, incluidos el CSV original, dos bitácoras completas, inventario recuperado, copias de antecedentes, código histórico, cruces y manifiesto.
+- Paquete de evidencia (retirado del repositorio público por contener datos ajenos a CyberFlow; se conserva en una copia privada): 27 archivos, incluidos el CSV original, dos bitácoras completas, inventario recuperado, copias de antecedentes, código histórico, cruces y manifiesto.
 
 El ZIP preserva los bytes originales: evita que la normalización CRLF/LF de Git cambie los hashes del CSV y las bitácoras. La copia legible del informe reproduce el documento del paquete. Las rutas absolutas que aparecen en él documentan su preparación en el portátil; **no son enlaces de descarga ni requisitos para consultar las evidencias del ZIP**.
 

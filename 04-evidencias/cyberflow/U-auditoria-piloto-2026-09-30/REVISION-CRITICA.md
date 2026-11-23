@@ -19,7 +19,7 @@ Las dos bitácoras completas se copiaron desde Kali y verificaron contra sus has
 - `ataques-cyberflow-20260929-193105.txt`: `fe5bdadca0c88e10c50c0f601c12aac43faf3c13c7e18ae177765cf4a2882fd1`.
 - `ataques2-20260929-202246.txt`: `7609f3d1c625e5b2fa30dd842025a81b950d5f2fae70911366d5ede5b0f84971`.
 
-Se preservaron las salidas existentes de la búsqueda de Claude desde el bastión: `sensor1.txt`, `hosts-bastion.txt` e `inventario-pcap-eve-sensor1.txt`. El inventario tiene alrededor de 38 mil líneas y recoge archivos candidatos; no equivale a haber inspeccionado cada evento ni cada paquete. Las fechas de modificación no certifican la fecha del contenido. `hosts-bastion.txt` solo conserva los nombres de alias, no credenciales.
+Se preservaron las salidas existentes de la búsqueda de Claude desde el bastión: `sensor1.txt` e `inventario-pcap-eve-sensor1.txt`. El inventario tiene alrededor de 38 mil líneas y recoge archivos candidatos; no equivale a haber inspeccionado cada evento ni cada paquete. Las fechas de modificación no certifican la fecha del contenido.
 
 Se conservaron además, con prefijo `antecedente-`, las series, journal, historial y scripts que usó la adenda. Son copias de evidencia ya extraída por Claude, no nuevas mediciones independientes de sus fuentes remotas. El manifiesto diferencia estas procedencias.
 
@@ -148,7 +148,7 @@ El segundo Nikto tiene `rc=124` a los 150 s. En los agregados de Kali se observa
 
 Continúan sin recuperarse el PCAP/EVE del piloto o logs del destino con operaciones y tiempos que permitan resolver la atribución. Los inventarios conservados documentan búsquedas realizadas; no convierten «no encontrado» en «no existe en ningún lugar».
 
-El respaldo VM-BACKUP, archivos de monitorización o firewall siguen siendo rutas potenciales no cerradas. **No hace falta ampliar todavía la búsqueda a hipervisores para usar estos resultados:** primero resolver identidad/versión histórica y temporalidad con evidencia directa si está disponible. Este trabajo no habilitó SSH de ESXi ni cambió privilegios.
+Otras fuentes siguen siendo rutas potenciales no cerradas. Primero hay que resolver identidad/versión histórica y temporalidad con evidencia directa si está disponible.
 
 Hasta entonces:
 
@@ -173,7 +173,7 @@ Resultados principales:
 - `comparacion-sensores.csv` y `alineacion-series.csv`: alineación exploratoria y parejas activas.
 - `historico-*.py`: copias inmutables de los tres archivos del candidato histórico, sin ejecutar.
 - `antecedente-cruce.py` y `antecedente-desfase.py`: scripts de la adenda conservados sin alteración.
-- `inventario-pcap-eve-sensor1.txt`, `sensor1.txt`, `hosts-bastion.txt`: búsqueda de Claude recuperada del bastión.
+- `inventario-pcap-eve-sensor1.txt`, `sensor1.txt`: búsqueda de Claude recuperada del bastión.
 - `antecedente-kali-journal-piloto.txt`, `antecedente-kali-zsh-50-140.txt`, `antecedente-sensor2-tiempo.txt`, `antecedente-s1-piloto.csv`, `antecedente-s2-piloto.csv`: fuentes nuevas de la adenda conservadas.
 - Las dos bitácoras completas, `VERIFICACION.json` y `MANIFIESTO.json` con hashes.
 
