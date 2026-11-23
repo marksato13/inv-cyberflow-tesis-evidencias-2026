@@ -6,6 +6,16 @@ Complementa la [nota M](../M-deteccion-kali-sensor1-2026-09-30.md) y el [linaje 
 
 ## Entrega
 
+### Actualización R1.3: búsqueda acotada y 158 ventanas
+
+El [cierre de búsqueda R1.3](cierre-r1-3/README.md) amplía esta auditoría a las **84 positivas históricas y las 74 referencias cuestionadas**. Publica la matriz por ventana, el informe, la cobertura de 90 archivos de logs y el paquete completo de fuentes/scripts.
+
+Las 74 referencias abarcan el 27–29 sep: 20 tienen paquetes/10 s y 54 tienen cero; **8 de esas 54 conservan actividad en contadores de historia de 30/60 s**. Hay 7 ventanas positivas cuya historia nominal de 60 s intersecta dos episodios. La atribución individual sigue incierta. Wazuh, la historia autenticada de Zabbix y los respaldos dentro de VM-BACKUP permanecen sin inspeccionar por falta de acceso; no se declara ausencia de evidencia en esas fuentes.
+
+Esta actualización no cambia etiquetas, métricas ni manuscrito y no recalcula Tabla 8. Cierra la búsqueda ejecutada hasta sus límites de acceso, no la validación independiente de las etiquetas.
+
+### Entrega inicial: extractor y 84 ventanas
+
 - [Informe crítico completo](REVISION-CRITICA.md): fuentes, extractor candidato, hipótesis temporales y límites de atribución.
 - [Paquete de evidencia](paquete-evidencia.zip): 27 archivos, incluidos el CSV original, dos bitácoras completas, inventario recuperado, copias de antecedentes, código histórico, cruces y manifiesto.
 
